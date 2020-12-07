@@ -18,7 +18,7 @@ docker build -t cargrid .
 >
 > https://docs.docker.com/engine/reference/commandline/create/
 
-The `--name` option can be used later for starting and stopping the container. The `-p` option exposes our host system's port 8080 and binds it to the same port in the container. Last, `car-rest-service` is the name of the image we used in the build step.
+The `--name` option can be used later for starting and stopping the container. The `-p` option exposes our host system's port 3000 and binds it to the same port in the container. Last, `car-rest-service` is the name of the image we used in the build step.
 
 ```
 docker create --name cargrid -p 3000:3000 cargrid
