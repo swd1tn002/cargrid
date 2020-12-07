@@ -1,4 +1,4 @@
-# Summary of Docker commands for CarRestService
+# Summary of Docker commands for cargrid app
 
 ## Build the Docker image
 
